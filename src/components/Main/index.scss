@@ -1,0 +1,32 @@
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+    .img{
+       object-fit: cover;
+       width: 300px;
+       height: 150px;
+       border-radius: 5px;
+       &:hover{
+        opacity: 0.5;
+        transition-delay: 0.7;
+        transition-timing-function: ease-out;
+       }
+    }
+    .text{
+        text-align: center;
+        color: white;
+        background-color: yellow;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    
+}
+
+.subtext{
+    text-transform: uppercase ;
+}
